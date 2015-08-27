@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C0002A3E1A15D4D4007AD54E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0002A3D1A15D4D4007AD54E /* AppDelegate.swift */; };
+		C0002A401A15D4D4007AD54E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0002A3F1A15D4D4007AD54E /* ViewController.swift */; };
+		C0002A431A15D4D4007AD54E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0002A411A15D4D4007AD54E /* Main.storyboard */; };
+		C0002A451A15D4D5007AD54E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0002A441A15D4D5007AD54E /* Images.xcassets */; };
+		C0002A481A15D4D5007AD54E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0002A461A15D4D5007AD54E /* LaunchScreen.xib */; };
+		C0002A541A15D4D5007AD54E /* Mob_SMSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0002A531A15D4D5007AD54E /* Mob_SMSTests.swift */; };
+		C0002A5E1A15D4FD007AD54E /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0002A5D1A15D4FD007AD54E /* SMS_SDK.framework */; };
+		C0002A651A15D586007AD54E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0002A621A15D586007AD54E /* Default-568h@2x.png */; };
+		C0002A661A15D586007AD54E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C0002A631A15D586007AD54E /* Default.png */; };
+		C0002A671A15D586007AD54E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0002A641A15D586007AD54E /* Default@2x.png */; };
+		C004328C1A2063F3005E316F /* NSDictionaryDeepCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C004328B1A2063F3005E316F /* NSDictionaryDeepCopy.swift */; };
+		C0614E1E1A1C74A600D392C5 /* VerifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0614E1D1A1C74A600D392C5 /* VerifyViewController.swift */; };
+		C08FF14D1A1B242A00343C78 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08FF14C1A1B242A00343C78 /* CountryViewController.swift */; };
+		C08FF14F1A1B268500343C78 /* country.plist in Resources */ = {isa = PBXBuildFile; fileRef = C08FF14E1A1B268500343C78 /* country.plist */; };
+		C095EF301A2309E300439F54 /* InvitationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C095EF2F1A2309E200439F54 /* InvitationViewController.swift */; };
+		C0DBB28C1A16F36B00672D00 /* smssdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0DBB28B1A16F36B00672D00 /* smssdk.bundle */; };
+		C0DBB28E1A16FC1800672D00 /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBB28D1A16FC1800672D00 /* RegistViewController.swift */; };
+		C0DBB2901A16FF1B00672D00 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DBB28F1A16FF1B00672D00 /* libz.dylib */; };
+		C0DBB2981A17072400672D00 /* HYZBadgeView.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBB2971A17072400672D00 /* HYZBadgeView.m */; };
+		C0DBB29A1A17180C00672D00 /* SectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DBB2991A17180C00672D00 /* SectionsViewController.swift */; };
+		C0DBB29D1A1718FC00672D00 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DBB29C1A1718FC00672D00 /* MBProgressHUD.m */; };
+		C0DBB29F1A17345900672D00 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DBB29E1A17345900672D00 /* AddressBook.framework */; };
+		C0DBB2A11A17366D00672D00 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DBB2A01A17366D00672D00 /* AddressBookUI.framework */; };
+		C0DBB2A31A17369300672D00 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DBB2A21A17369300672D00 /* CoreGraphics.framework */; };
+		C0F442F51A1F279F00D01A72 /* FriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F442F41A1F279F00D01A72 /* FriendsCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C0002A4E1A15D4D5007AD54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C0002A301A15D4D4007AD54E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C0002A371A15D4D4007AD54E;
+			remoteInfo = Mob_SMS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C0002A381A15D4D4007AD54E /* Mob_SMS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mob_SMS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0002A3C1A15D4D4007AD54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0002A3D1A15D4D4007AD54E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0002A3F1A15D4D4007AD54E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		C0002A421A15D4D4007AD54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0002A441A15D4D5007AD54E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C0002A471A15D4D5007AD54E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C0002A4D1A15D4D5007AD54E /* Mob_SMSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mob_SMSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0002A521A15D4D5007AD54E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0002A531A15D4D5007AD54E /* Mob_SMSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mob_SMSTests.swift; sourceTree = "<group>"; };
+		C0002A5D1A15D4FD007AD54E /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		C0002A5F1A15D541007AD54E /* Mob_SMS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mob_SMS-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0002A621A15D586007AD54E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C0002A631A15D586007AD54E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C0002A641A15D586007AD54E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C004328B1A2063F3005E316F /* NSDictionaryDeepCopy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDictionaryDeepCopy.swift; sourceTree = "<group>"; };
+		C0614E1D1A1C74A600D392C5 /* VerifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerifyViewController.swift; sourceTree = "<group>"; };
+		C08FF14C1A1B242A00343C78 /* CountryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		C08FF14E1A1B268500343C78 /* country.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = country.plist; sourceTree = "<group>"; };
+		C095EF2F1A2309E200439F54 /* InvitationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvitationViewController.swift; sourceTree = "<group>"; };
+		C0DBB28B1A16F36B00672D00 /* smssdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = smssdk.bundle; sourceTree = "<group>"; };
+		C0DBB28D1A16FC1800672D00 /* RegistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		C0DBB28F1A16FF1B00672D00 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C0DBB2961A17072400672D00 /* HYZBadgeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYZBadgeView.h; sourceTree = "<group>"; };
+		C0DBB2971A17072400672D00 /* HYZBadgeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYZBadgeView.m; sourceTree = "<group>"; };
+		C0DBB2991A17180C00672D00 /* SectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionsViewController.swift; sourceTree = "<group>"; };
+		C0DBB29B1A1718FC00672D00 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C0DBB29C1A1718FC00672D00 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		C0DBB29E1A17345900672D00 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		C0DBB2A01A17366D00672D00 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		C0DBB2A21A17369300672D00 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C0F442F41A1F279F00D01A72 /* FriendsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0002A351A15D4D4007AD54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0DBB2A31A17369300672D00 /* CoreGraphics.framework in Frameworks */,
+				C0DBB2A11A17366D00672D00 /* AddressBookUI.framework in Frameworks */,
+				C0DBB29F1A17345900672D00 /* AddressBook.framework in Frameworks */,
+				C0DBB2901A16FF1B00672D00 /* libz.dylib in Frameworks */,
+				C0002A5E1A15D4FD007AD54E /* SMS_SDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0002A4A1A15D4D5007AD54E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C0002A2F1A15D4D4007AD54E = {
+			isa = PBXGroup;
+			children = (
+				C0DBB2A21A17369300672D00 /* CoreGraphics.framework */,
+				C0DBB2A01A17366D00672D00 /* AddressBookUI.framework */,
+				C0DBB29E1A17345900672D00 /* AddressBook.framework */,
+				C0DBB28F1A16FF1B00672D00 /* libz.dylib */,
+				C0002A3A1A15D4D4007AD54E /* Mob_SMS */,
+				C0002A501A15D4D5007AD54E /* Mob_SMSTests */,
+				C0002A391A15D4D4007AD54E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C0002A391A15D4D4007AD54E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0002A381A15D4D4007AD54E /* Mob_SMS.app */,
+				C0002A4D1A15D4D5007AD54E /* Mob_SMSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0002A3A1A15D4D4007AD54E /* Mob_SMS */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBB2951A17071D00672D00 /* Lib */,
+				C0DBB28B1A16F36B00672D00 /* smssdk.bundle */,
+				C0002A5D1A15D4FD007AD54E /* SMS_SDK.framework */,
+				C0002A3D1A15D4D4007AD54E /* AppDelegate.swift */,
+				C0002A3F1A15D4D4007AD54E /* ViewController.swift */,
+				C0DBB28D1A16FC1800672D00 /* RegistViewController.swift */,
+				C08FF14C1A1B242A00343C78 /* CountryViewController.swift */,
+				C0614E1D1A1C74A600D392C5 /* VerifyViewController.swift */,
+				C0DBB2991A17180C00672D00 /* SectionsViewController.swift */,
+				C095EF2F1A2309E200439F54 /* InvitationViewController.swift */,
+				C0F442F41A1F279F00D01A72 /* FriendsCell.swift */,
+				C004328B1A2063F3005E316F /* NSDictionaryDeepCopy.swift */,
+				C0002A411A15D4D4007AD54E /* Main.storyboard */,
+				C0002A441A15D4D5007AD54E /* Images.xcassets */,
+				C0002A461A15D4D5007AD54E /* LaunchScreen.xib */,
+				C0002A3B1A15D4D4007AD54E /* Supporting Files */,
+				C0002A5F1A15D541007AD54E /* Mob_SMS-Bridging-Header.h */,
+			);
+			path = Mob_SMS;
+			sourceTree = "<group>";
+		};
+		C0002A3B1A15D4D4007AD54E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0002A621A15D586007AD54E /* Default-568h@2x.png */,
+				C0002A631A15D586007AD54E /* Default.png */,
+				C0002A641A15D586007AD54E /* Default@2x.png */,
+				C0002A3C1A15D4D4007AD54E /* Info.plist */,
+				C08FF14E1A1B268500343C78 /* country.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0002A501A15D4D5007AD54E /* Mob_SMSTests */ = {
+			isa = PBXGroup;
+			children = (
+				C0002A531A15D4D5007AD54E /* Mob_SMSTests.swift */,
+				C0002A511A15D4D5007AD54E /* Supporting Files */,
+			);
+			path = Mob_SMSTests;
+			sourceTree = "<group>";
+		};
+		C0002A511A15D4D5007AD54E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0002A521A15D4D5007AD54E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0DBB2951A17071D00672D00 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				C0DBB29B1A1718FC00672D00 /* MBProgressHUD.h */,
+				C0DBB29C1A1718FC00672D00 /* MBProgressHUD.m */,
+				C0DBB2961A17072400672D00 /* HYZBadgeView.h */,
+				C0DBB2971A17072400672D00 /* HYZBadgeView.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0002A371A15D4D4007AD54E /* Mob_SMS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0002A571A15D4D5007AD54E /* Build configuration list for PBXNativeTarget "Mob_SMS" */;
+			buildPhases = (
+				C0002A341A15D4D4007AD54E /* Sources */,
+				C0002A351A15D4D4007AD54E /* Frameworks */,
+				C0002A361A15D4D4007AD54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Mob_SMS;
+			productName = Mob_SMS;
+			productReference = C0002A381A15D4D4007AD54E /* Mob_SMS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0002A4C1A15D4D5007AD54E /* Mob_SMSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0002A5A1A15D4D5007AD54E /* Build configuration list for PBXNativeTarget "Mob_SMSTests" */;
+			buildPhases = (
+				C0002A491A15D4D5007AD54E /* Sources */,
+				C0002A4A1A15D4D5007AD54E /* Frameworks */,
+				C0002A4B1A15D4D5007AD54E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0002A4F1A15D4D5007AD54E /* PBXTargetDependency */,
+			);
+			name = Mob_SMSTests;
+			productName = Mob_SMSTests;
+			productReference = C0002A4D1A15D4D5007AD54E /* Mob_SMSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0002A301A15D4D4007AD54E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = DevStore;
+				TargetAttributes = {
+					C0002A371A15D4D4007AD54E = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					C0002A4C1A15D4D5007AD54E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = C0002A371A15D4D4007AD54E;
+					};
+				};
+			};
+			buildConfigurationList = C0002A331A15D4D4007AD54E /* Build configuration list for PBXProject "Mob_SMS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0002A2F1A15D4D4007AD54E;
+			productRefGroup = C0002A391A15D4D4007AD54E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0002A371A15D4D4007AD54E /* Mob_SMS */,
+				C0002A4C1A15D4D5007AD54E /* Mob_SMSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0002A361A15D4D4007AD54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0002A671A15D586007AD54E /* Default@2x.png in Resources */,
+				C0002A431A15D4D4007AD54E /* Main.storyboard in Resources */,
+				C0002A651A15D586007AD54E /* Default-568h@2x.png in Resources */,
+				C08FF14F1A1B268500343C78 /* country.plist in Resources */,
+				C0002A481A15D4D5007AD54E /* LaunchScreen.xib in Resources */,
+				C0002A451A15D4D5007AD54E /* Images.xcassets in Resources */,
+				C0002A661A15D586007AD54E /* Default.png in Resources */,
+				C0DBB28C1A16F36B00672D00 /* smssdk.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0002A4B1A15D4D5007AD54E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0002A341A15D4D4007AD54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F442F51A1F279F00D01A72 /* FriendsCell.swift in Sources */,
+				C0002A401A15D4D4007AD54E /* ViewController.swift in Sources */,
+				C0614E1E1A1C74A600D392C5 /* VerifyViewController.swift in Sources */,
+				C0DBB29D1A1718FC00672D00 /* MBProgressHUD.m in Sources */,
+				C0002A3E1A15D4D4007AD54E /* AppDelegate.swift in Sources */,
+				C0DBB2981A17072400672D00 /* HYZBadgeView.m in Sources */,
+				C004328C1A2063F3005E316F /* NSDictionaryDeepCopy.swift in Sources */,
+				C095EF301A2309E300439F54 /* InvitationViewController.swift in Sources */,
+				C08FF14D1A1B242A00343C78 /* CountryViewController.swift in Sources */,
+				C0DBB28E1A16FC1800672D00 /* RegistViewController.swift in Sources */,
+				C0DBB29A1A17180C00672D00 /* SectionsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0002A491A15D4D5007AD54E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0002A541A15D4D5007AD54E /* Mob_SMSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C0002A4F1A15D4D5007AD54E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C0002A371A15D4D4007AD54E /* Mob_SMS */;
+			targetProxy = C0002A4E1A15D4D5007AD54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C0002A411A15D4D4007AD54E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0002A421A15D4D4007AD54E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0002A461A15D4D5007AD54E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0002A471A15D4D5007AD54E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0002A551A15D4D5007AD54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0002A561A15D4D5007AD54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0002A581A15D4D5007AD54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mob_SMS",
+				);
+				INFOPLIST_FILE = Mob_SMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mob_SMS/Mob_SMS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C0002A591A15D4D5007AD54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mob_SMS",
+				);
+				INFOPLIST_FILE = Mob_SMS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-licucore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mob_SMS/Mob_SMS-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C0002A5B1A15D4D5007AD54E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Mob_SMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mob_SMS.app/Mob_SMS";
+			};
+			name = Debug;
+		};
+		C0002A5C1A15D4D5007AD54E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Mob_SMSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mob_SMS.app/Mob_SMS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0002A331A15D4D4007AD54E /* Build configuration list for PBXProject "Mob_SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0002A551A15D4D5007AD54E /* Debug */,
+				C0002A561A15D4D5007AD54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0002A571A15D4D5007AD54E /* Build configuration list for PBXNativeTarget "Mob_SMS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0002A581A15D4D5007AD54E /* Debug */,
+				C0002A591A15D4D5007AD54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0002A5A1A15D4D5007AD54E /* Build configuration list for PBXNativeTarget "Mob_SMSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0002A5B1A15D4D5007AD54E /* Debug */,
+				C0002A5C1A15D4D5007AD54E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0002A301A15D4D4007AD54E /* Project object */;
+}
